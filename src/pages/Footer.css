@@ -1,0 +1,292 @@
+footer {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(5, 1, 26);
+}
+.footer {
+  height: 400px;
+  width: 100%;
+  background-color: rgb(5, 1, 26);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.footer .form,
+.links,
+.touch {
+  height: 350px;
+  width: 400px;
+}
+.form {
+  /* background-color: azure; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form h5,
+p {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+.form h5 {
+  font-weight: 700;
+  font-size: 21px;
+}
+.form p {
+  font-weight: 400;
+  font-size: 13px;
+}
+.form input,
+textarea {
+  width: 61%;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+.form input {
+  height: 30px;
+}
+.form button {
+  width: 80px;
+  margin-left: 50px;
+  padding: 5px;
+  border-radius: 12px;
+  border: none;
+  width: 120px;
+  background-color: #f60525e6;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  height: 30px;
+}
+
+.links h5 {
+  color: #f60525e6;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+}
+.link-nav {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 31px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+.touch {
+  /* background-color: azure; */
+}
+.touch h5 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  color: white;
+}
+.touch h5 span {
+  color: #f60525e6;
+}
+.touch .address {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 5px;
+}
+
+.footer-icon {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(5, 1, 26);
+}
+.ficon {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.ficon a {
+  font-size: 32px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  flex-wrap: wrap;
+}
+.term {
+  display: flex;
+  gap: 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  flex-wrap: wrap;
+}
+.copy span {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .footer-icon {
+    flex-direction: column;
+    height: auto;
+    gap: 5px;
+    
+  }
+  .footer .form,
+  .links,
+  .touch {
+    gap: 12px;
+    height: 200px;
+  }
+  .form p {
+    font-size: 10px;
+  }
+  .form button {
+    margin-left: 0;
+  }
+  .form,
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .links {
+    height: 120px;
+  }
+  .link-nav {
+    margin-top: 0;
+    gap: 10px;
+    flex-direction: row;
+  }
+
+  .link-nav a {
+    font-size: 10px;
+  }
+
+  .links h5,
+  .touch h5,
+  .form h5 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .touch .address {
+    margin-top: 4px;
+    gap: 11px;
+    padding: 5px;
+  }
+  .touch-img img {
+    width: 18px;
+  }
+  .touch-para p {
+    font-size: 10px;
+  }
+ .ficon{
+  gap: 12px;
+ }
+  .ficon a{
+    font-size: 15px;
+  }
+.term{
+  gap: 12px;
+}
+.term a{
+  font-size: 10px;
+}
+.copy span{
+  font-size: 10px;
+}
+}
+
+@media (min-width: 479px) and (max-width: 768px){
+  .footer {
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .footer-icon {
+    flex-direction: column;
+    height: auto;
+    gap: 5px;
+    
+  }
+  .footer .form,
+  .links,
+  .touch {
+    gap: 12px;
+    height: 200px;
+  }
+  .form p {
+    font-size: 10px;
+  }
+  .form button {
+    margin-left: 0;
+  }
+  .form,
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .links {
+    height: 100px;
+  }
+  .link-nav {
+    margin-top: 0;
+    gap: 10px;
+    flex-direction: row;
+  }
+
+  .link-nav a {
+    font-size: 10px;
+  }
+
+  .links h5,
+  .touch h5,
+  .form h5 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .touch .address {
+    margin-top: 4px;
+    gap: 11px;
+    padding: 5px;
+  }
+  .touch-img img {
+    width: 18px;
+  }
+  .touch-para p {
+    font-size: 10px;
+  }
+ .ficon{
+  gap: 12px;
+ }
+  .ficon a{
+    font-size: 15px;
+  }
+.term{
+  gap: 12px;
+}
+.term a{
+  font-size: 10px;
+}
+.copy span{
+  font-size: 10px;
+}
+}
