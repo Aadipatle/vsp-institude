@@ -203,7 +203,7 @@ function Home() {
                   <div className="nam">
                     <h4>{e.name}</h4>
                     <p>{e.head1}</p>
-                    <p>{e.head2}</p>
+                    <p>{e.head2}</p> 
                   </div>
                 </div>
                 <div className="des">
